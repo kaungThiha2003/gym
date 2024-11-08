@@ -15,13 +15,15 @@
 
 </head>
 <body>
-    <nav id="navbar" class="navbar navbar-light py-3 text-uppercase">
+    <nav id="navbar" class="navbar sticky-top navbar-light py-3 text-uppercase">
         <div class="container">
             <a href="" class="navbar-brand">GYM & FITNESS</a>
 
-        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#myNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
 
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="navbar-nav mx-auto">
@@ -61,11 +63,77 @@
         </div>
     </nav>
 
-    <header class="header">
+    <header id="header">
         <video src="Gym photo/vd.mp4" autoplay muted loop></video>
-        <h1 class="text-white" style="font-size: 5rem;">BE FITNESS</h1>
-        <h3 class="text-white" style="font-size: 3rem;">& BE STRONG</h3>
+        <div class="overlay"></div>
+        <div class="container py-5">
+            <h1 class="text-white" style="font-size: 5rem;">BE FITNESS</h1>
+            <h3 class="text-white" style="font-size: 3rem;">& BE STRONG</h3>
+            <p class="text-white" style="max-width: 500px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex et eos deleniti aperiam perspiciatis! Doloremque vitae praesentium harum, similique iste dolor error sapiente est, exercitationem tenetur consequatur nulla soluta qui!</p>
+            <button class="btn btn-danger">JOIN US</button>
+        </div>
     </header>
+    <!-- About section -->
+    <section id="about" class="container py-5">
+        <div class="sub-heading"> ABOUT US</div>
+        <div class="main-heading"> Who We Are</div>
+        <div class="headingline"></div>
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam quas consequuntur iusto provident vel ad? Quaerat sapiente soluta temporibus deserunt fuga neque tenetur illo. Tempora sapiente ad ducimus odit velit!</p>
+                <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate consequuntur esse corporis hic officiis quisquam animi sequi sunt. Nemo voluptate dolorem eveniet iste dolor error culpa sint optio voluptas! Similique.</p>
+            </div>
+            <div class="col-md-6">
+                <img class="aboutimage rounded-1" src="Gym photo/p5.jfif" alt="" >
+            </div>
+        </div>
+    </section>
+
+    <section id="service" class="container">
+        <div class="sub-heading">OUR SERVICES</div>
+        <div class="main-heading">What We Offer</div>
+        <div class="headingline"></div>
+        <div class="row">
+            <div class="col-md-5">
+                <img src="Gym photo/service.png" alt="" style="height: 500px;">
+            </div>
+            <div class="col-md-7">
+                <div class="card service-card overflow-hidden bg-dark my-2">
+                    <div class="row">
+                        <div class="col-md-7 text-center text-white">
+                            <h5>Retail Merchandise</h5>
+                            <p style="font-size: 0.9rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos incidunt autem reiciendis facere. Non ratione repellat ullam! Iste alias, voluptates</p>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="Gym photo/p4.jfif" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="card service-card overflow-hidden bg-dark my-2">
+                    <div class="row">
+                        <div class="col-md-7 text-center text-white">
+                            <h5>Online Personal Training</h5>
+                            <p style="font-size: 0.9rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos incidunt autem reiciendis facere. Non ratione repellat ullam! Iste alias, voluptates</p>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="Gym photo/p7.jfif" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="card service-card overflow-hidden bg-dark my-2">
+                    <div class="row">
+                        <div class="col-md-7 text-center text-white">
+                            <h5>Personal Training</h5>
+                            <p style="font-size: 0.9rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos incidunt autem reiciendis facere. Non ratione repellat ullam! Iste alias, voluptates</p>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="Gym photo/p2.jfif" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- java script-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
